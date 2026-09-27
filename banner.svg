@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#1a1230"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="240" rx="14" fill="url(#bg)"/>
+  <rect width="1200" height="240" rx="14" fill="url(#grid)"/>
+  <rect x="64" y="64" width="6" height="112" rx="3" fill="#a349d6"/>
+  <text x="96" y="104" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" fill="#f0f6fc">Computer Science &amp; Software Engineering</text>
+  <text x="96" y="144" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#8b949e">Maynooth University · Ireland</text>
+  <text x="96" y="176" font-family="Consolas, Menlo, monospace" font-size="20" fill="#3fb950">$ backend · linux · self-hosting</text>
+  <g fill="#a349d6" opacity="0.9">
+    <rect x="1024" y="64" width="112" height="112" rx="6" fill="none" stroke="#a349d6" stroke-opacity="0.35" stroke-width="2"/>
+    <rect x="1048" y="88" width="16" height="16"/><rect x="1096" y="88" width="16" height="16"/>
+    <rect x="1048" y="136" width="16" height="16"/><rect x="1072" y="144" width="16" height="16"/><rect x="1096" y="136" width="16" height="16"/>
+  </g>
+</svg>
